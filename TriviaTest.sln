@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriviaTest", "TriviaTest.vcxproj", "{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Debug|x64.ActiveCfg = Debug|x64
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Debug|x64.Build.0 = Debug|x64
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Debug|x86.Build.0 = Debug|Win32
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Release|x64.ActiveCfg = Release|x64
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Release|x64.Build.0 = Release|x64
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Release|x86.ActiveCfg = Release|Win32
+		{99C57C69-BB7C-4EB4-97FD-2C9BEF4EFDDE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0261CC13-42A2-4DEF-85F1-BD23A5298FE1}
+	EndGlobalSection
+EndGlobal
