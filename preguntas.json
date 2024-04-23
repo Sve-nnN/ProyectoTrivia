@@ -1,0 +1,324 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuándo acabó la II Guerra Mundial?",
+      "respuesta": 1945
+    },
+    {
+      "pregunta": "¿Cuál era el apellido de la reina Isabel II de Inglaterra?",
+      "respuesta": "Windsor"
+    },
+    {
+      "pregunta": "¿En qué año se aprobó la actual Constitución española?",
+      "respuesta": "En 1978."
+    },
+    {
+      "pregunta": "¿Qué día es la fiesta de la Hispanidad?",
+      "respuesta": "El 12 de octubre."
+    },
+    {
+      "pregunta": "¿Cuál fue el primer presidente democrático de España tras la dictadura franquista?",
+      "respuesta": "Adolfo Suárez."
+    },
+    {
+      "pregunta": "¿En qué año murió Freddie Mercury?",
+      "respuesta": "En 1991."
+    },
+    {
+      "pregunta": "¿Qué día es la fiesta nacional de Estados Unidos?",
+      "respuesta": "El 4 de julio."
+    },
+    {
+      "pregunta": "¿Quién inventó la bombilla?",
+      "respuesta": "Thomas Edison."
+    },
+    {
+      "pregunta": "¿En qué país se usó la primera bomba atómica?",
+      "respuesta": "En Japón (Hiroshima)"
+    },
+    {
+      "pregunta": "¿Cuándo empezó la Primera Guerra Mundial?",
+      "respuesta": "En 1914."
+    },
+    {
+      "pregunta": "¿En qué año se produjo la Revolución Francesa?",
+      "respuesta": "En 1789."
+    },
+    {
+      "pregunta": "¿Cuántas veces ha estado el hombre en la Luna?",
+      "respuesta": "Seis."
+    },
+    {
+      "pregunta": "¿Qué presidente de Estados Unidos fue asesinado en Dallas?",
+      "respuesta": "John F. Kennedy."
+    },
+    {
+      "pregunta": "¿En qué año viajó al espacio el primer ser humano?",
+      "respuesta": "En 1961 (Yuri Gagarin)."
+    },
+    {
+      "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+      "respuesta": "En 1492."
+    },
+    {
+      "pregunta": "¿Cuándo saltó Felix Baumgartner?",
+      "respuesta": "En 2012."
+    },
+    {
+      "pregunta": "¿En qué año cayó el muro de Berlín?",
+      "respuesta": "En 1989."
+    },
+    {
+      "pregunta": "¿Cuándo se inventó la imprenta?",
+      "respuesta": "En 1440."
+    },
+    {
+      "pregunta": "¿Hace cuánto se extinguieron los dinosaurios?",
+      "respuesta": "Hace 66 millones de años."
+    },
+    {
+      "pregunta": "¿Cuál era el nombre de pila de Che Guevara?",
+      "respuesta": "Ernesto."
+    },
+    {
+      "pregunta": "Según la Biblia,¿cuántos años vivió Matusalén?",
+      "respuesta": "969 años."
+    },
+    {
+      "pregunta": "¿En qué país nació Adolf Hitler?",
+      "respuesta": "Austria."
+    },
+    {
+      "pregunta": "¿Qué reina británica fue hija de los Reyes Católicos?",
+      "respuesta": "Catalina de Aragón."
+    },
+    {
+      "pregunta": "¿Cuánto duró “La Guerra de los Cien Años”?",
+      "respuesta": "116 años."
+    },
+    {
+      "pregunta": "¿Quién fue el último faraón de Egipto?",
+      "respuesta": "Ramsés III."
+    },
+    {
+      "pregunta": "¿Cuál fue la primera civilización humana?",
+      "respuesta": "La civilización sumeria."
+    },
+    {
+      "pregunta": "¿Cuándo empezó la Revolución Rusa?",
+      "respuesta": "En 1917."
+    },
+    {
+      "pregunta": "¿Cuál fue el genocidio más grande de la historia?",
+      "respuesta": "El Holocausto."
+    },
+    {
+      "pregunta": "¿Quién creó el Partido Comunista?",
+      "respuesta": "Lenin."
+    },
+    {
+      "pregunta": "¿Qué famoso líder de Cuba estuvo 49 años en el poder?",
+      "respuesta": "Fidel Castro"
+    },
+    {
+      "pregunta": "¿Cuándo se fundó la OTAN?",
+      "respuesta": "En 1949."
+    },
+    {
+      "pregunta": "¿En qué año fue asesinado Abraham Lincoln?",
+      "respuesta": "En 1865."
+    },
+    {
+      "pregunta": "¿En qué año se hundió el Titanic?",
+      "respuesta": "En 1912."
+    },
+    {
+      "pregunta": "¿Con cuántos años murió la Reina Isabel II?",
+      "respuesta": "Con 96 años."
+    },
+    {
+      "pregunta": "¿Cómo se llamaba en realidad El Cid Campeador?",
+      "respuesta": "Rodrigo Díaz de Vivar."
+    },
+    {
+      "pregunta": "¿En qué año fue el golpe de estado de Tejero?",
+      "respuesta": "En 1981."
+    },
+    {
+      "pregunta": "¿Cuál fue el primer metal que el hombre empleó?",
+      "respuesta": "El cobre."
+    },
+    {
+      "pregunta": "¿Qué personaje fue conocido como el rey de Macedonia?",
+      "respuesta": "Alejandro Magno."
+    },
+    {
+      "pregunta": "¿Alrededor de qué mar vivieron los egipcios, los fenicios, los israelitas, los griegos y los romanos?",
+      "respuesta": "El Mar Mediterráneo."
+    },
+    {
+      "pregunta": "¿quiénes fundaron a Roma?",
+      "respuesta": "Rómulo y Remo."
+    },
+    {
+      "pregunta": "¿En qué año ocurrió el intento de golpe de Estado en España?",
+      "respuesta": "En 1981."
+    },
+    {
+      "pregunta": "¿En qué año se coronó a Isabel II?",
+      "respuesta": "1953."
+    },
+    {
+      "pregunta": "¿En qué año abdicó el rey Juan Carlos I?",
+      "respuesta": "En 2014."
+    },
+    {
+      "pregunta": "¿En qué continente surgió la Humanidad?",
+      "respuesta": "En África."
+    },
+    {
+      "pregunta": "¿En qué año cayó el Imperio Romano?",
+      "respuesta": "En el año 476."
+    },
+    {
+      "pregunta": "¿En qué etapa desaparecieron los dinosaurios?",
+      "respuesta": "Al final del Cretácico."
+    },
+    {
+      "pregunta": "¿Quién descubrió Perú?",
+      "respuesta": "Francisco Pizarro."
+    },
+    {
+      "pregunta": "¿Dónde nació Adolf Hitler?",
+      "respuesta": "En Austria."
+    },
+    {
+      "pregunta": "¿Quién fue el primer emperador romano?",
+      "respuesta": "César Augusto."
+    },
+    {
+      "pregunta": "¿En qué año murió Napoleón?",
+      "respuesta": "En 1821."
+    },
+    {
+      "pregunta": "¿Cuál fue la última dinastía en China?",
+      "respuesta": "La dinastía Qing."
+    },
+    {
+      "pregunta": "¿En qué año fue asesinado John F.}, Kennedy?",
+      "respuesta": "En 1963."
+    },
+    {
+      "pregunta": "¿En qué país se originó la civilización azteca?",
+      "respuesta": "En México."
+    },
+    {
+      "pregunta": "¿Dónde nació Juana de Arco?",
+      "respuesta": "En Francia."
+    },
+    {
+      "pregunta": "¿Qué países fueron los miembros de los Aliados en la Segunda Guerra Mundial?",
+      "respuesta": "Gran Bretaña, Francia, Rusia, China y Estados Unidos."
+    },
+    {
+      "pregunta": "¿quién fue oficialmente el líder de la Unión Soviética?",
+      "respuesta": "Stalin."
+    },
+    {
+      "pregunta": "¿Quién fue la mujer más poderosa de la historia bizantina?",
+      "respuesta": "La emperatriz Teodora."
+    },
+    {
+      "pregunta": "¿Cuáles fueron los cuatro grandes inventos de China?",
+      "respuesta": "El papel, la brújula, la pólvora y la imprenta."
+    },
+    {
+      "pregunta": "¿Qué país de Asia es miembro del Eje en la Segunda Guerra Mundial?",
+      "respuesta": "Japón."
+    },
+    {
+      "pregunta": "¿Quién fundó el socialismo científico?",
+      "respuesta": "Karl Marx."
+    },
+    {
+      "pregunta": "¿Cómo se llaman los pobladores más antiguos de España y Europa?",
+      "respuesta": "Homo anteccesor"
+    },
+    {
+      "pregunta": "¿cuál fue la otra que sobrevivió hasta nuestros días?",
+      "respuesta": "Euskera."
+    },
+    {
+      "pregunta": "¿en qué año el Califato de Damasco tomó Toledo?",
+      "respuesta": "En el 711."
+    },
+    {
+      "pregunta": "¿Qué monarca convocó una Curia Regia extraordinaria que condujo al nacimiento de las Cortes?",
+      "respuesta": "Alfonso IX de León."
+    },
+    {
+      "pregunta": "¿Cómo se llamaba el emir musulmán que entregó las llaves de Granada a los Reyes Católicos?",
+      "respuesta": "Boabdil."
+    },
+    {
+      "pregunta": "¿A qué rey se le atribuye ´´el imperio en el que nunca se pone el sol´´?",
+      "respuesta": "Carlos I."
+    },
+    {
+      "pregunta": "¿Qué rey envió a la Armada Invencible contra Inglaterra y perdió?",
+      "respuesta": "Felipe II."
+    },
+    {
+      "pregunta": "¿Qué monarca convocó una Curia Regia extraordinaria que condujo al nacimiento de las Cortes?",
+      "respuesta": "Alfonso IX de León."
+    },
+    {
+      "pregunta": "¿Quién fue la primera mujer de Carlos II ´´el Hechizado´´ ?",
+      "respuesta": "Maria Luisa de Orleans."
+    },
+    {
+      "pregunta": "¿Bajo el reinado de quién se creó la Guardia Civil?",
+      "respuesta": "Isabel II."
+    },
+    {
+      "pregunta": "¿Quién fue el segundo presidente de la II República?",
+      "respuesta": "Manuel Azaña."
+    },
+    {
+      "pregunta": "¿Qué día encabezó Franco el alzamiento militar que inició la guerra civil?",
+      "respuesta": "17 de julio."
+    },
+    {
+      "pregunta": "¿En qué año se celebraron las primeras elecciones bajo la nueva constitución?",
+      "respuesta": "1979."
+    },
+    {
+      "pregunta": "¿Cuántos presidentes ha tenido la democracia española en total hasta Pedro Sánchez?",
+      "respuesta": "7."
+    },
+    {
+      "pregunta": "¿Con qué nombre se conoce el escándalo que obligó al presidente estadounidense Richard Nixon a dimitir?",
+      "respuesta": "Watergate."
+    },
+    {
+      "pregunta": "¿Qué emperador romano legalizó el cristianismo?",
+      "respuesta": "Constantino."
+    },
+    {
+      "pregunta": "¿Qué hito informático de 1969 cambiaría radicalmente el curso de la historia de la humanidad?",
+      "respuesta": "Internet."
+    },
+    {
+      "pregunta": "¿Quién fue el primer Presidente de Estados Unidos?",
+      "respuesta": "George Washington."
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de la famosa batalla donde Napoleón Bonaparte fue derrotado?",
+      "respuesta": "Waterloo."
+    },
+    {
+      "pregunta": "¿Qué facción dirigió Mao Zedong durante la guerra civil China?",
+      "respuesta": "Comunistas."
+    }
+  ]
+}
