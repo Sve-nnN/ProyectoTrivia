@@ -1,4 +1,5 @@
 #pragma once
+#pragma once
 #include <string>
 std::string Data{ R"({
   "preguntas": [
