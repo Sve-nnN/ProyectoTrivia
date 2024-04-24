@@ -1,20 +1,17 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include "Pregunta.h"
 using namespace std;
 
 class ManagerPreguntas{
     private:
-        vector<string> preguntas;
-        vector<string> respuestas;
+        vector<Pregunta*>preguntas;
     public:
         ManagerPreguntas();
-        void addPregunta(string pregunta);
-        void addRespuesta(string respuesta);
+        void addPregunta(Pregunta* pregunta);
         string getPregunta(int i);
-        string getRespuesta(int i);
+        string getRandomPregunta();
         int getNumPreguntas();
-        int getNumRespuestas(); 
         void toString();
 }

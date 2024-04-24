@@ -1,4 +1,6 @@
-{
+#pragma once
+#include <string>
+std::string Data{ R"({
   "preguntas": [
     {
       "pregunta": "Cuando acabo la II Guerra Mundial?",
@@ -9,23 +11,23 @@
       "respuesta": "Windsor"
     },
     {
-      "pregunta": "En que año se aprobo la actual Constitucion española?",
+      "pregunta": "En que anio se aprobo la actual Constitucion espaniola?",
       "respuesta": "En 1978"
     },
     {
-      "pregunta": "Que día es la fiesta de la Hispanidad?",
+      "pregunta": "Que dia es la fiesta de la Hispanidad?",
       "respuesta": "El 12 de octubre"
     },
     {
-      "pregunta": "Cual fue el primer presidente democratico de España tras la dictadura franquista?",
+      "pregunta": "Cual fue el primer presidente democratico de Espania tras la dictadura franquista?",
       "respuesta": "Adolfo Suarez"
     },
     {
-      "pregunta": "En que año murio Freddie Mercury?",
+      "pregunta": "En que anio murio Freddie Mercury?",
       "respuesta": "En 1991"
     },
     {
-      "pregunta": "Que día es la fiesta nacional de Estados Unidos?",
+      "pregunta": "Que dia es la fiesta nacional de Estados Unidos?",
       "respuesta": "El 4 de julio"
     },
     {
@@ -33,15 +35,15 @@
       "respuesta": "Thomas Edison"
     },
     {
-      "pregunta": "En que país se uso la primera bomba atomica?",
-      "respuesta": "En Japon (Hiroshima)"
+      "pregunta": "En que pais se uso la primera bomba atomica?",
+      "respuesta": "En Japon Hiroshima"
     },
     {
       "pregunta": "Cuando empezo la Primera Guerra Mundial?",
       "respuesta": "En 1914"
     },
     {
-      "pregunta": "En que año se produjo la Revolucion Francesa?",
+      "pregunta": "En que anio se produjo la Revolucion Francesa?",
       "respuesta": "En 1789"
     },
     {
@@ -53,11 +55,11 @@
       "respuesta": "John F Kennedy"
     },
     {
-      "pregunta": "En que año viajo al espacio el primer ser humano?",
-      "respuesta": "En 1961 (Yuri Gagarin)"
+      "pregunta": "En que anio viajo al espacio el primer ser humano?",
+      "respuesta": "En 1961 Yuri Gagarin"
     },
     {
-      "pregunta": "En que año llego Cristobal Colon a America?",
+      "pregunta": "En que anio llego Cristobal Colon a America?",
       "respuesta": "En 1492"
     },
     {
@@ -65,7 +67,7 @@
       "respuesta": "En 2012"
     },
     {
-      "pregunta": "En que año cayo el muro de Berlín?",
+      "pregunta": "En que anio cayo el muro de Berlin?",
       "respuesta": "En 1989"
     },
     {
@@ -74,18 +76,18 @@
     },
     {
       "pregunta": "Hace cuanto se extinguieron los dinosaurios?",
-      "respuesta": "Hace 66 millones de años"
+      "respuesta": "Hace 66 millones de anios"
     },
     {
       "pregunta": "Cual era el nombre de pila de Che Guevara?",
       "respuesta": "Ernesto"
     },
     {
-      "pregunta": "Según la Biblia,cuantos años vivio Matusalen?",
-      "respuesta": "969 años"
+      "pregunta": "Segun la Biblia,cuantos anios vivio Matusalen?",
+      "respuesta": "969 anios"
     },
     {
-      "pregunta": "En que país nacio Adolf Hitler?",
+      "pregunta": "En que pais nacio Adolf Hitler?",
       "respuesta": "Austria"
     },
     {
@@ -93,11 +95,11 @@
       "respuesta": "Catalina de Aragon"
     },
     {
-      "pregunta": "Cuanto duro “La Guerra de los Cien Años”?",
-      "respuesta": "116 años"
+      "pregunta": "Cuanto duro 'La Guerra de los Cien anios'?",
+      "respuesta": "116 anios"
     },
     {
-      "pregunta": "Quien fue el último faraon de Egipto?",
+      "pregunta": "Quien fue el ultimo faraon de Egipto?",
       "respuesta": "Ramses III"
     },
     {
@@ -117,7 +119,7 @@
       "respuesta": "Lenin"
     },
     {
-      "pregunta": "Que famoso líder de Cuba estuvo 49 años en el poder?",
+      "pregunta": "Que famoso lider de Cuba estuvo 49 anios en el poder?",
       "respuesta": "Fidel Castro"
     },
     {
@@ -125,23 +127,23 @@
       "respuesta": "En 1949"
     },
     {
-      "pregunta": "En que año fue asesinado Abraham Lincoln?",
+      "pregunta": "En que anio fue asesinado Abraham Lincoln?",
       "respuesta": "En 1865"
     },
     {
-      "pregunta": "En que año se hundio el Titanic?",
+      "pregunta": "En que anio se hundio el Titanic?",
       "respuesta": "En 1912"
     },
     {
-      "pregunta": "Con cuantos años murio la Reina Isabel II?",
-      "respuesta": "Con 96 años"
+      "pregunta": "Con cuantos anios murio la Reina Isabel II?",
+      "respuesta": "Con 96 anios"
     },
     {
       "pregunta": "Como se llamaba en realidad El Cid Campeador?",
-      "respuesta": "Rodrigo Díaz de Vivar"
+      "respuesta": "Rodrigo Diaz de Vivar"
     },
     {
-      "pregunta": "En que año fue el golpe de estado de Tejero?",
+      "pregunta": "En que anio fue el golpe de estado de Tejero?",
       "respuesta": "En 1981"
     },
     {
@@ -161,15 +163,15 @@
       "respuesta": "Romulo y Remo"
     },
     {
-      "pregunta": "En que año ocurrio el intento de golpe de Estado en España?",
+      "pregunta": "En que anio ocurrio el intento de golpe de Estado en Espania?",
       "respuesta": "En 1981"
     },
     {
-      "pregunta": "En que año se corono a Isabel II?",
+      "pregunta": "En que anio se corono a Isabel II?",
       "respuesta": "1953"
     },
     {
-      "pregunta": "En que año abdico el rey Juan Carlos I?",
+      "pregunta": "En que anio abdico el rey Juan Carlos I?",
       "respuesta": "En 2014"
     },
     {
@@ -177,15 +179,15 @@
       "respuesta": "En africa"
     },
     {
-      "pregunta": "En que año cayo el Imperio Romano?",
-      "respuesta": "En el año 476"
+      "pregunta": "En que anio cayo el Imperio Romano?",
+      "respuesta": "En el anio 476"
     },
     {
       "pregunta": "En que etapa desaparecieron los dinosaurios?",
       "respuesta": "Al final del Cretacico"
     },
     {
-      "pregunta": "Quien descubrio Perú?",
+      "pregunta": "Quien descubrio Peru?",
       "respuesta": "Francisco Pizarro"
     },
     {
@@ -197,19 +199,19 @@
       "respuesta": "Cesar Augusto"
     },
     {
-      "pregunta": "En que año murio Napoleon?",
+      "pregunta": "En que anio murio Napoleon?",
       "respuesta": "En 1821"
     },
     {
-      "pregunta": "Cual fue la última dinastía en China?",
-      "respuesta": "La dinastía Qing"
+      "pregunta": "Cual fue la ultima dinastia en China?",
+      "respuesta": "La dinastia Qing"
     },
     {
-      "pregunta": "En que año fue asesinado John F}, Kennedy?",
+      "pregunta": "En que anio fue asesinado John F}, Kennedy?",
       "respuesta": "En 1963"
     },
     {
-      "pregunta": "En que país se origino la civilizacion azteca?",
+      "pregunta": "En que pais se origino la civilizacion azteca?",
       "respuesta": "En Mexico"
     },
     {
@@ -217,11 +219,11 @@
       "respuesta": "En Francia"
     },
     {
-      "pregunta": "Que países fueron los miembros de los Aliados en la Segunda Guerra Mundial?",
-      "respuesta": "Gran Bretaña, Francia, Rusia, China y Estados Unidos"
+      "pregunta": "Que paises fueron los miembros de los Aliados en la Segunda Guerra Mundial?",
+      "respuesta": "Gran Bretania, Francia, Rusia, China y Estados Unidos"
     },
     {
-      "pregunta": "quien fue oficialmente el líder de la Union Sovietica?",
+      "pregunta": "quien fue oficialmente el lider de la Union Sovietica?",
       "respuesta": "Stalin"
     },
     {
@@ -230,26 +232,26 @@
     },
     {
       "pregunta": "Cuales fueron los cuatro grandes inventos de China?",
-      "respuesta": "El papel, la brújula, la polvora y la imprenta"
+      "respuesta": "El papel, la brujula, la polvora y la imprenta"
     },
     {
-      "pregunta": "Que país de Asia es miembro del Eje en la Segunda Guerra Mundial?",
+      "pregunta": "Que pais de Asia es miembro del Eje en la Segunda Guerra Mundial?",
       "respuesta": "Japon"
     },
     {
-      "pregunta": "Quien fundo el socialismo científico?",
+      "pregunta": "Quien fundo el socialismo cientifico?",
       "respuesta": "Karl Marx"
     },
     {
-      "pregunta": "Como se llaman los pobladores mas antiguos de España y Europa?",
+      "pregunta": "Como se llaman los pobladores mas antiguos de Espania y Europa?",
       "respuesta": "Homo anteccesor"
     },
     {
-      "pregunta": "cual fue la otra que sobrevivio hasta nuestros días?",
+      "pregunta": "cual fue la otra que sobrevivio hasta nuestros dias?",
       "respuesta": "Euskera"
     },
     {
-      "pregunta": "en que año el Califato de Damasco tomo Toledo?",
+      "pregunta": "en que anio el Califato de Damasco tomo Toledo?",
       "respuesta": "En el 711"
     },
     {
@@ -261,7 +263,7 @@
       "respuesta": "Boabdil"
     },
     {
-      "pregunta": "A que rey se le atribuye ´´el imperio en el que nunca se pone el sol´´?",
+      "pregunta": "A que rey se le atribuye 'el imperio en el que nunca se pone el sol'?",
       "respuesta": "Carlos I"
     },
     {
@@ -273,7 +275,7 @@
       "respuesta": "Alfonso IX de Leon"
     },
     {
-      "pregunta": "Quien fue la primera mujer de Carlos II ´´el Hechizado´´ ?",
+      "pregunta": "Quien fue la primera mujer de Carlos II 'el Hechizado' ?",
       "respuesta": "Maria Luisa de Orleans"
     },
     {
@@ -281,19 +283,19 @@
       "respuesta": "Isabel II"
     },
     {
-      "pregunta": "Quien fue el segundo presidente de la II República?",
-      "respuesta": "Manuel Azaña"
+      "pregunta": "Quien fue el segundo presidente de la II Republica?",
+      "respuesta": "Manuel Azania"
     },
     {
-      "pregunta": "Que día encabezo Franco el alzamiento militar que inicio la guerra civil?",
+      "pregunta": "Que dia encabezo Franco el alzamiento militar que inicio la guerra civil?",
       "respuesta": "17 de julio"
     },
     {
-      "pregunta": "En que año se celebraron las primeras elecciones bajo la nueva constitucion?",
+      "pregunta": "En que anio se celebraron las primeras elecciones bajo la nueva constitucion?",
       "respuesta": "1979"
     },
     {
-      "pregunta": "Cuantos presidentes ha tenido la democracia española en total hasta Pedro Sanchez?",
+      "pregunta": "Cuantos presidentes ha tenido la democracia espaniola en total hasta Pedro Sanchez?",
       "respuesta": "7"
     },
     {
@@ -305,7 +307,7 @@
       "respuesta": "Constantino"
     },
     {
-      "pregunta": "Que hito informatico de 1969 cambiaría radicalmente el curso de la historia de la humanidad?",
+      "pregunta": "Que hito informatico de 1969 cambiaria radicalmente el curso de la historia de la humanidad?",
       "respuesta": "Internet"
     },
     {
@@ -322,3 +324,4 @@
     }
   ]
 }
+)" };

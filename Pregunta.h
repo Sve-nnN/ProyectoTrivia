@@ -1,18 +1,14 @@
 #include <iostream>
-#include <string>
-
-using namespace std;
+#include <String>
 
 class Pregunta{
-    private:
-        string enunciado;
-        string respuesta;
-    public:
-        Pregunta();
-        Pregunta(string enunciado, string respuesta);
-        string getEnunciado();
-        string getRespuesta();
-        void setEnunciado(string enunciado);
-        void setRespuesta(string respuesta);
-        void toString();
+private:
+    string enunciado, respuesta;
+public:
+    Pregunta(string enunciado, string respuesta);
+    string getEnunciado();
+    string getRespuesta();
+    void setEnunciado(string enunciado);
+    void setRespuesta(string respuesta);
+    void toString();
 };

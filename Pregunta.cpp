@@ -1,22 +1,24 @@
-Pregunta(){
-    enunciado = "";
-    respuesta = "";
-}
-Pregunta(string enunciado, string respuesta){
+#include "Pregunta.h"
+
+#include <iostream>
+
+using namespace std;
+
+Pregunta::Pregunta(string enunciado, string respuesta){
     this->enunciado = enunciado;
     this->respuesta = respuesta;
 }
-string getEnunciado(){
+string Pregunta::getEnunciado(){
     return enunciado;
 }
-string getRespuesta(){
+string Pregunta::getRespuesta(){
     return respuesta;
     }
-void setEnunciado(string enunciado){
+void Pregunta::setEnunciado(string enunciado){
     this->enunciado = enunciado;
     }
-void setRespuesta(string respuesta){
+void Pregunta::setRespuesta(string respuesta){
     this->respuesta = respuesta;}
-void toString(){
+void Pregunta::toString(){
     cout << "Enunciado: " << enunciado << endl;
     cout << "Respuesta: " << respuesta << endl;}
