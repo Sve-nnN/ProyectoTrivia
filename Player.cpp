@@ -1,49 +1,49 @@
 #include "pch.h"
-#include "Nave.h"
+#include "Player.h"
 
-Nave::Nave(int x, float y, int dx, int height, int width, int lives)
+Player::Player(int x, float y, int dx, int height, int width, int lives)
 	: Entity(x, y, dx, height, width)
 {
 	this->dy = 2;
 	this->lives = lives;
 }
 
-Nave::~Nave() {
+Player::~Player() {
 
 }
 
-void Nave::setY(float y) {
+void Player::setY(float y) {
 	this->y = y;
 }
 
-float Nave::getX() {
+float Player::getX() {
 	return this->x;
 }
 
-void Nave::setX(int x) {
+void Player::setX(int x) {
 	this->x = x;
 }
 
-void Nave::setLives(int lives) {
+void Player::setLives(int lives) {
 	this->lives = lives;
 }
 
-int Nave::getLives() {
+int Player::getLives() {
 	return this->lives;
 }
 
-void Nave::substractLive() {
+void Player::substractLive() {
 	this->lives--;
 }
 
 
-void Nave::erase() {
+void Player::erase() {
 	Console::SetCursorPosition(x, int(y)); cout << "   ";
 	Console::SetCursorPosition(x, int(y) + 1); cout << "   ";
 	Console::SetCursorPosition(x, int(y) + 2); cout << "   ";
 }
 
-void Nave::move(char key) {
+void Player::move(char key) {
 	switch (key) {
 	case 75:
 		if (x > Console::WindowLeft + 2)
@@ -64,7 +64,7 @@ void Nave::move(char key) {
 	}
 }
 
-void Nave::draw() {
+void Player::draw() {
 	Console::ForegroundColor = ConsoleColor::Green;
 	Console::SetCursorPosition(x, int(y)); cout << " O ";
 	Console::SetCursorPosition(x, int(y) + 1); cout << "/I\\";
