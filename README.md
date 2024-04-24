@@ -58,8 +58,8 @@ A continuación, se muestran los pasos de cómo debe iniciar y desarrollarse el 
 ▪ Desarrollar el diagrama de clases UML de todas las clases, incluyendo atributos, métodos y relaciones entre clases, que se utilizarán en el videojuego.
 
 # Integrantes:
-@ HiApple1
-@ Sve-nnN
-@	CodeGiovany
+@HiApple1
+@Sve-nnN
+@CodeGiovany
 
 
