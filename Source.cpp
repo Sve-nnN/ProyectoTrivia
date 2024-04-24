@@ -17,7 +17,7 @@ int main() {
     int aux;
     ManagerQuestion managerPreguntas = ManagerQuestion();
     try {
-        // Asegúrate de que los datos JSON estén disponibles y sean válidos
+        // Asegúrate de que loos datos JSON estén disponibles y sean válidos
         if (!Data.empty()) {
             json PreguntasJson{ json::parse(Data) };
             // Iterate over the "preguntas" array
