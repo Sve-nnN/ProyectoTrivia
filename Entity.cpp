@@ -1,4 +1,4 @@
-#include "pch.h"
+
 #include "Entity.h"
 
 Entity::Entity(int x, float y, int dx, int height, int width) {

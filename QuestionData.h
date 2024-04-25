@@ -1,5 +1,5 @@
 #pragma once
-#pragma once
+
 #include <string>
 std::string Data{ R"({
   "preguntas": [
@@ -555,13 +555,6 @@ std::string Data{ R"({
       "incorrecta2": "Fireloop",
       "incorrecta3": "Waterflop",
       "respuesta": "Waterloo"
-    },
-    {
-      "pregunta": "Que faccion dirigio Mao Zedong durante la guerra civil China?",
-      "incorrecta1": "Capitalista",
-      "incorrecta2": "Centralista",
-      "incorrecta3": "Nula",
-      "respuesta": "Comunistas"
     }
   ]
 }

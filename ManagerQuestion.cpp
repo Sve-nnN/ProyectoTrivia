@@ -13,6 +13,15 @@ string ManagerQuestion::getPregunta(int i) {
 int ManagerQuestion::getNumPreguntas() {
     return this->numPreguntas;
 }
+string ManagerQuestion::getInco1(int i) {
+    return this->questions[i]->getIncorrecta1();
+}
+string ManagerQuestion::getInco2(int i) {
+    return this->questions[i]->getIncorrecta2();
+}
+string ManagerQuestion::getInco3(int i) {
+    return this->questions[i]->getIncorrecta3();
+}
 //Se puede usar sin pasarle parametros
 string ManagerQuestion::getRandomPregunta() {
     srand(time(0));

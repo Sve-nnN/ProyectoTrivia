@@ -1,8 +1,7 @@
-#include "pch.h"
+
 #include "Player.h"
 
-Player::Player(int x, float y, int dx, int height, int width, int lives)
-	: Entity(x, y, dx, height, width)
+Player::Player(int x, int y, int dx, int height, int width, int lives) : Entity(x, y, dx, height, width)
 {
 	this->dy = 2;
 	this->lives = lives;
@@ -12,7 +11,7 @@ Player::~Player() {
 
 }
 
-void Player::setY(float y) {
+void Player::setY(int y) {
 	this->y = y;
 }
 
