@@ -13,14 +13,7 @@ using json = nlohmann::json;
 
 using namespace std;
 using namespace System;
-
-int main() {
-	//generar un numero aleatorio
-	srand(time(NULL));
-	Player* player = new Player(6, 8, 2, 3, 3, 5);
-
-	int aux;
-	ManagerQuestion managerPreguntas = ManagerQuestion();
+ManagerQuestion agregarPreguntasManager(ManagerQuestion managerPreguntas) {
 	try {
 		// Asegúrate de que los datos JSON estén disponibles y sean válidos
 		if (!Data.empty()) {
@@ -40,32 +33,41 @@ int main() {
 
 				Question* newQuestion = new Question(preguntaString, respuestaString, inco1String, inco2String, inco3String);
 				managerPreguntas.addPregunta(newQuestion);
+				return managerPreguntas;
 			}
 			// managerPreguntas.toString();
 		}
 		else {
 			cerr << "No data available for parsing" << endl;
-			return 1;
 		}
 
 	}
 	catch (const nlohmann::json::parse_error& e) {
 		cerr << "Parsing error: " << e.what() << endl;
-		return 1;
 	}
+}
 
-	int randNum =rand() % managerPreguntas.getNumPreguntas();
+int main() {
+	//generar un numero aleatorio
+	srand(time(NULL));
+	Player* player = new Player(6, 8, 2, 3, 3, 5);
+
+	int aux;
+	ManagerQuestion managerPreguntas = ManagerQuestion();
+	//Le asignamos a la variable preguntas todas las funciones que tiene el manager, para asi pasar el codigo a una funcion y no ejecutarlo todo desde el main
+	ManagerQuestion preguntas = agregarPreguntasManager(managerPreguntas);
+
+	int randNum = rand() % preguntas.getNumPreguntas();
 
 
+	cout << preguntas.getRandomPregunta(randNum, aux) << "\n";
+	cout << "Cual es la respuesta?\n";
 
-cout << managerPreguntas.getRandomPregunta(randNum, aux) << "\n";
-cout << "Cual es la respuesta?\n";
+	player->draw();
 
-player->draw();
-
-cout << managerPreguntas.getInco1(randNum) << "\n";
-cout << managerPreguntas.getInco2(randNum) << "\n";
-cout << managerPreguntas.getInco3(randNum) << "\n";
-cout << managerPreguntas.getRespuesta(randNum) << "\n";
-system("pause");
+	cout << preguntas.getInco1(randNum) << "\n";
+	cout << preguntas.getInco2(randNum) << "\n";
+	cout << preguntas.getInco3(randNum) << "\n";
+	cout << preguntas.getRespuesta(randNum) << "\n";
+	system("pause");
 }

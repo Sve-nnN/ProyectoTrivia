@@ -341,170 +341,170 @@ std::string Data{ R"({
     },
     {
       "pregunta": "Quien fue el primer emperador romano?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Cesar Rojas",
+      "incorrecta2": "Poncio Pilato",
+      "incorrecta3": "Hernesto Allaquin",
       "respuesta": "Cesar Augusto"
     },
     {
       "pregunta": "En que anio murio Napoleon?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "En 1821"
+      "incorrecta1": "0789",
+      "incorrecta2": "1822",
+      "incorrecta3": "1799",
+      "respuesta": "1821"
     },
     {
       "pregunta": "Cual fue la ultima dinastia en China?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "La dinastia Qing"
+      "incorrecta1": "Dinastia Fu",
+      "incorrecta2": "Dinastia Chang",
+      "incorrecta3": "Dinastia Fung",
+      "respuesta": "Dinastia Qing"
     },
     {
       "pregunta": "En que anio fue asesinado John F Kennedy?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "En 1963"
+      "incorrecta1": "1980",
+      "incorrecta2": "1992",
+      "incorrecta3": "1956",
+      "respuesta": "1963"
     },
     {
       "pregunta": "En que pais se origino la civilizacion azteca?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "En Mexico"
+      "incorrecta1": "Panama",
+      "incorrecta2": "Honduras",
+      "incorrecta3": "Peru",
+      "respuesta": "Mexico"
     },
     {
       "pregunta": "Donde nacio Juana de Arco?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "En Francia"
+      "incorrecta1": "Alemania",
+      "incorrecta2": "Peru",
+      "incorrecta3": "Espania",
+      "respuesta": "Francia"
     },
     {
       "pregunta": "Que paises fueron los miembros de los Aliados en la Segunda Guerra Mundial?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "China, Venezuela, Peru y Estados Unidos",
+      "incorrecta2": "Japon, Rusia, China Francia y Reino Unido",
+      "incorrecta3": "Trinidad y Tobago, Honolulu, Argentina y Rusia",
       "respuesta": "Gran Bretania, Francia, Rusia, China y Estados Unidos"
     },
     {
       "pregunta": "quien fue oficialmente el lider de la Union Sovietica?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Gates",
+      "incorrecta2": "Spielberg",
+      "incorrecta3": "Marx",
       "respuesta": "Stalin"
     },
     {
       "pregunta": "Quien fue la mujer mas poderosa de la historia bizantina?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "La emperatriz Teodora"
+      "incorrecta1": "Laonisa",
+      "incorrecta2": "Teonisa",
+      "incorrecta3": "Labradora",
+      "respuesta": "Teodora"
     },
     {
       "pregunta": "Cuales fueron los cuatro grandes inventos de China?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "El chaufa, el pato y Xiaomi",
+      "incorrecta2": "Concreto, vidrio y tela",
+      "incorrecta3": "La moneda, el papel y los fuegos artificiales",
       "respuesta": "El papel, la brujula, la polvora y la imprenta"
     },
     {
       "pregunta": "Que pais de Asia es miembro del Eje en la Segunda Guerra Mundial?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Filipinas",
+      "incorrecta2": "China",
+      "incorrecta3": "Korea",
       "respuesta": "Japon"
     },
     {
       "pregunta": "Quien fundo el socialismo cientifico?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Hugo Chavez",
+      "incorrecta2": "Carlos Castillo",
+      "incorrecta3": "Matusalen",
       "respuesta": "Karl Marx"
     },
     {
       "pregunta": "Como se llaman los pobladores mas antiguos de Espania y Europa?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Homo sapien",
+      "incorrecta2": "Homo erectus",
+      "incorrecta3": "Humano",
       "respuesta": "Homo anteccesor"
     },
     {
       "pregunta": "cual fue la otra que sobrevivio hasta nuestros dias?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Eureka",
+      "incorrecta2": "Ketchup",
+      "incorrecta3": "Chifa",
       "respuesta": "Euskera"
     },
     {
       "pregunta": "en que anio el Califato de Damasco tomo Toledo?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
-      "respuesta": "En el 711"
+      "incorrecta1": "115",
+      "incorrecta2": "117",
+      "incorrecta3": "511",
+      "respuesta": "711"
     },
     {
       "pregunta": "Que monarca convoco una Curia Regia extraordinaria que condujo al nacimiento de las Cortes?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Alonso Felipe IV",
+      "incorrecta2": "Alfonso X el Sabio",
+      "incorrecta3": "El Seibo del Orinoco",
       "respuesta": "Alfonso IX de Leon"
     },
     {
       "pregunta": "Como se llamaba el emir musulman que entrego las llaves de Granada a los Reyes Catolicos?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Moad
+      "incorrecta2": "Samil",
+      "incorrecta3": "Abdel",
       "respuesta": "Boabdil"
     },
     {
       "pregunta": "A que rey se le atribuye 'el imperio en el que nunca se pone el sol'?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Carlos II",
+      "incorrecta2": "Isabel III",
+      "incorrecta3": "Isabel II",
       "respuesta": "Carlos I"
     },
     {
       "pregunta": "Que rey envio a la Armada Invencible contra Inglaterra y perdio?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Felipe III",
+      "incorrecta2": "Alonso II",
+      "incorrecta3": "Alfonso X",
       "respuesta": "Felipe II"
     },
     {
       "pregunta": "Que monarca convoco una Curia Regia extraordinaria que condujo al nacimiento de las Cortes?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Alfonso X el Sabio",
+      "incorrecta2": "Victor II de Leon",
+      "incorrecta3": "Teresa Ruiz",
       "respuesta": "Alfonso IX de Leon"
     },
     {
       "pregunta": "Quien fue la primera mujer de Carlos II 'el Hechizado' ?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Maria Gonzales de Blanco",
+      "incorrecta2": "Maria Eugenia",
+      "incorrecta3": "Luisa Fuentes",
       "respuesta": "Maria Luisa de Orleans"
     },
     {
       "pregunta": "Bajo el reinado de quien se creo la Guardia Civil?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Cesar III",
+      "incorrecta2": "Julio IV",
+      "incorrecta3": "Isabel I",
       "respuesta": "Isabel II"
     },
     {
       "pregunta": "Quien fue el segundo presidente de la II Republica?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "Luis Labrador",
+      "incorrecta2": "Manuela Fuentes",
+      "incorrecta3": "Hernesto Gomez",
       "respuesta": "Manuel Azania"
     },
     {
       "pregunta": "Que dia encabezo Franco el alzamiento militar que inicio la guerra civil?",
-      "incorrecta1": "",
-      "incorrecta2": "",
-      "incorrecta3": "",
+      "incorrecta1": "1 de marzo",
+      "incorrecta2": "15 de febrero",
+      "incorrecta3": "18 de junio",
       "respuesta": "17 de julio"
     },
     {

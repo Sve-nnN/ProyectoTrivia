@@ -7,6 +7,7 @@ Player::Player(int x, int y, int dx, int height, int width, int lives) : Entity(
 	this->lives = lives;
 }
 
+
 Player::~Player() {
 
 }
