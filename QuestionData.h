@@ -453,7 +453,7 @@ std::string Data{ R"({
     },
     {
       "pregunta": "Como se llamaba el emir musulman que entrego las llaves de Granada a los Reyes Catolicos?",
-      "incorrecta1": "Moad
+      "incorrecta1": "Moad",
       "incorrecta2": "Samil",
       "incorrecta3": "Abdel",
       "respuesta": "Boabdil"
@@ -527,8 +527,15 @@ std::string Data{ R"({
       "incorrecta2": "Waterlop",
       "incorrecta3": "Pizzagate",
       "respuesta": "Watergate"
-    },
-    {
+    }
+]
+}
+
+
+)" };
+
+/*    
+{
       "pregunta": "Que emperador romano legalizo el cristianismo?",
       "incorrecta1": "Pilatos",
       "incorrecta2": "Plato",
@@ -557,7 +564,4 @@ std::string Data{ R"({
       "respuesta": "Waterloo"
     }
   ]
-}
-
-
-)" };
+*/

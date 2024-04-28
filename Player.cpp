@@ -5,11 +5,32 @@ Player::Player(int x, int y, int dx, int height, int width, int lives) : Entity(
 {
 	this->dy = 2;
 	this->lives = lives;
+	this->preguntasContestadas = 0;
+	this->preguntasCorrectas = 0;
+	this->preguntasRequeridas = 10;
 }
+
+
 
 
 Player::~Player() {
 
+}
+
+int Player::getPreguntasContestadas() {
+	return this->preguntasContestadas;
+}
+void Player::setPreguntasContestadas(int preguntasContestadas){
+	this->preguntasContestadas = preguntasContestadas;
+}
+int Player::getPreguntasCorrectas() {
+	return this->preguntasCorrectas;
+}
+void Player::setPreguntasCorrectas(int preguntasCorrectas) {
+	this->preguntasCorrectas = preguntasCorrectas;
+}
+int Player::getPreguntasRequeridas() {
+	return this->preguntasRequeridas;
 }
 
 void Player::setY(int y) {

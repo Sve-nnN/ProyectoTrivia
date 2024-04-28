@@ -9,10 +9,12 @@
 #include "Player.h"
 #include "Entity.h"
 #include "QuestionData.h"
+#include "GameService.h"
 using json = nlohmann::json;
 
 using namespace std;
 using namespace System;
+
 ManagerQuestion agregarPreguntasManager(ManagerQuestion managerPreguntas) {
 	try {
 		// Asegúrate de que los datos JSON estén disponibles y sean válidos
@@ -47,16 +49,8 @@ ManagerQuestion agregarPreguntasManager(ManagerQuestion managerPreguntas) {
 	}
 }
 
-int main() {
-	//generar un numero aleatorio
-	srand(time(NULL));
-	Player* player = new Player(6, 8, 2, 3, 3, 5);
-
-	int aux;
-	ManagerQuestion managerPreguntas = ManagerQuestion();
-	//Le asignamos a la variable preguntas todas las funciones que tiene el manager, para asi pasar el codigo a una funcion y no ejecutarlo todo desde el main
-	ManagerQuestion preguntas = agregarPreguntasManager(managerPreguntas);
-
+/*
+Para imprimir una pregunta y respuestas hacemos asi:
 	int randNum = rand() % preguntas.getNumPreguntas();
 
 
@@ -69,5 +63,37 @@ int main() {
 	cout << preguntas.getInco2(randNum) << "\n";
 	cout << preguntas.getInco3(randNum) << "\n";
 	cout << preguntas.getRespuesta(randNum) << "\n";
+*/
+int main() {
+	Console::SetWindowSize(120, 30);
+	Console::CursorVisible = false;
+	srand(time(NULL));
+
+	int aux;
+	int key;
+	ManagerQuestion managerPreguntas = ManagerQuestion();
+	//Le asignamos a la variable preguntas todas las funciones que tiene el manager, para asi pasar el codigo a una funcion y no ejecutarlo todo desde el main
+	ManagerQuestion preguntas = agregarPreguntasManager(managerPreguntas);
+
+	GameService* gameService = new GameService();
+	while (true) {
+		//Logica del game service
+		gameService->eraseEntities();
+		gameService->detectCollisions();
+		gameService->addEntities();
+		gameService->checkGameResult();
+
+		//logica del movimiento
+		if (_kbhit()) {
+			key = _getch();
+			key = toupper(key);
+			gameService->getPlayer()->move(key);
+		}
+
+		_sleep(100);
+	}
+
+	delete gameService;
 	system("pause");
+	return 0;
 }
